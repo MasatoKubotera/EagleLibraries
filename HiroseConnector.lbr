@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -111,28 +111,28 @@
 <wire x1="5.08" y1="-15.24" x2="5.08" y2="12.7" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-15.24" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="12.7" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
-<pin name="1" x="-10.16" y="10.16" visible="pin" length="middle"/>
-<pin name="3" x="-10.16" y="7.62" visible="pin" length="middle"/>
-<pin name="5" x="-10.16" y="5.08" visible="pin" length="middle"/>
-<pin name="7" x="-10.16" y="2.54" visible="pin" length="middle"/>
-<pin name="9" x="-10.16" y="0" visible="pin" length="middle"/>
-<pin name="11" x="-10.16" y="-2.54" visible="pin" length="middle"/>
-<pin name="13" x="-10.16" y="-5.08" visible="pin" length="middle"/>
-<pin name="15" x="-10.16" y="-7.62" visible="pin" length="middle"/>
-<pin name="17" x="-10.16" y="-10.16" visible="pin" length="middle"/>
-<pin name="19" x="-10.16" y="-12.7" visible="pin" length="middle"/>
-<pin name="2" x="10.16" y="10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="4" x="10.16" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="6" x="10.16" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="8" x="10.16" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="10" x="10.16" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="12" x="10.16" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="14" x="10.16" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="16" x="10.16" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="18" x="10.16" y="-10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="20" x="10.16" y="-12.7" visible="pin" length="middle" rot="R180"/>
-<text x="0" y="17.78" size="1.778" layer="95" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="15.24" size="1.778" layer="95" ratio="10" align="center">HIF3FC-20PA-2.54DSA(71)</text>
+<pin name="1" x="-7.62" y="10.16" visible="pin" length="short"/>
+<pin name="3" x="-7.62" y="7.62" visible="pin" length="short"/>
+<pin name="5" x="-7.62" y="5.08" visible="pin" length="short"/>
+<pin name="7" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="9" x="-7.62" y="0" visible="pin" length="short"/>
+<pin name="11" x="-7.62" y="-2.54" visible="pin" length="short"/>
+<pin name="13" x="-7.62" y="-5.08" visible="pin" length="short"/>
+<pin name="15" x="-7.62" y="-7.62" visible="pin" length="short"/>
+<pin name="17" x="-7.62" y="-10.16" visible="pin" length="short"/>
+<pin name="19" x="-7.62" y="-12.7" visible="pin" length="short"/>
+<pin name="2" x="7.62" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="4" x="7.62" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="6" x="7.62" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="8" x="7.62" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="10" x="7.62" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="12" x="7.62" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="14" x="7.62" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="16" x="7.62" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="18" x="7.62" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="20" x="7.62" y="-12.7" visible="pin" length="short" rot="R180"/>
+<text x="0" y="15.24" size="1" layer="95" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="13.97" size="1" layer="95" ratio="10" align="center">HIF3FC-20PA-2.54DSA(71)</text>
 </symbol>
 </symbols>
 <devicesets>
